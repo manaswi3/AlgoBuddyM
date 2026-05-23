@@ -16,5 +16,5 @@ jobs:
       - name: Label issues based on content
         uses: github/issue-labeler@v3.4
         with:
-          repo-token: "${{ secrets.GITHUB_TOKEN }}"
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
           configuration-path: .github/labeler.yml
