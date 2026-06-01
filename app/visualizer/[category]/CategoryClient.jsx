@@ -176,9 +176,7 @@ export default function CategoryClient({ section }) {
               >
                 {section.title}
               </h1>
-              <p className="text-[14px] text-surface-600 dark:text-surface-300 mt-1 font-medium">
-                {count} algorithm{count !== 1 ? "s" : ""} · {section.desc}
-              </p>
+
             </div>
           </div>
         </div>
