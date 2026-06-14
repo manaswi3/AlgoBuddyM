@@ -5,20 +5,20 @@ We welcome and appreciate contributions from the community to help make this pro
 
 ---
 
-**Join our community** â€” **Discord Server: <https://discord.gg/Gv2N4U3KAc>**
+**Join our community** — **Discord Server: <https://discord.gg/Gv2N4U3KAc>**
 
 ---
 
 ## â†ªï¸ Table of Contents
 
-- [Contribution Areas](#ï¸-contribution-areas)
-- [Tech Stack](#ï¸-tech-stack)
-- [Getting Started](#ï¸-getting-started)
-- [Development Workflow](#ï¸-development-workflow)
-- [Issue Assignment Process](#ï¸-issue-assignment-process)
-- [Pull Request Guidelines](#ï¸-pull-request-guidelines)
-- [Reporting Issues](#ï¸-reporting-issues)
-- [Need Help?](#ï¸-need-help)
+- [Contribution Areas](#️-contribution-areas)
+- [Tech Stack](#️-tech-stack)
+- [Getting Started](#️-getting-started)
+- [Development Workflow](#️-development-workflow)
+- [Issue Assignment Process](#️-issue-assignment-process)
+- [Pull Request Guidelines](#️-pull-request-guidelines)
+- [Reporting Issues](#️-reporting-issues)
+- [Need Help?](#️-need-help)
 
 ---
 
@@ -41,17 +41,17 @@ Feel free to suggest new contribution ideas by opening an issue first.
 
 # â†ªï¸ Tech Stack
 
-| Layer           | Technology              |
-| --------------- | ----------------------- |
-| Framework       | Next.js 14 (App Router) |
-| Library         | React.js                |
-| Styling         | Tailwind CSS            |
-| Language        | JavaScript              |
-| Database / Auth | Supabase                |
-| Animation       | GSAP, Framer Motion     |
-| Charts          | Recharts                |
-| Email           | Nodemailer (Gmail)      |
-| Captcha         | Cloudflare Turnstile    |
+| Layer     | Technology                                         |
+| --------- | -------------------------------------------------- |
+| Framework | Next.js 14 (App Router)                            |
+| Library   | React.js                                           |
+| Styling   | Tailwind CSS                                       |
+| Language  | JavaScript                                         |
+| Database / Auth | Supabase                                     |
+| Animation | GSAP, Framer Motion                                |
+| Charts    | Recharts                                           |
+| Email     | Nodemailer (Gmail)                                 |
+| Captcha   | Cloudflare Turnstile                               |
 
 ---
 
@@ -89,18 +89,18 @@ Copy the example env file and fill in the required values:
 cp EnvExample.txt .env.local
 ```
 
-| Variable                         | Description                                      |
-| -------------------------------- | ------------------------------------------------ |
-| `EMAIL_USER`                     | Gmail address used to send contact/review emails |
-| `EMAIL_PASSWORD`                 | Gmail App Password (not your account password)   |
-| `NEXT_PUBLIC_GA_ID`              | Google Analytics Measurement ID                  |
-| `NEXT_PUBLIC_SUPABASE_URL`       | Your Supabase project URL                        |
-| `NEXT_PUBLIC_SUPABASE_ANON_KEY`  | Supabase anonymous/public key                    |
-| `SUPABASE_SERVICE_KEY`           | Supabase service role key (server-side only)     |
-| `NEXT_PUBLIC_TURNSTILE_SITE_KEY` | Cloudflare Turnstile site key                    |
-| `TURNSTILE_SECRET_KEY`           | Cloudflare Turnstile secret key                  |
+| Variable                           | Description                                      |
+| ---------------------------------- | ------------------------------------------------ |
+| `EMAIL_USER`                       | Gmail address used to send contact/review emails |
+| `EMAIL_PASSWORD`                   | Gmail App Password (not your account password)   |
+| `NEXT_PUBLIC_GA_ID`                | Google Analytics Measurement ID                  |
+| `NEXT_PUBLIC_SUPABASE_URL`         | Your Supabase project URL                        |
+| `NEXT_PUBLIC_SUPABASE_ANON_KEY`    | Supabase anonymous/public key                    |
+| `SUPABASE_SERVICE_KEY`             | Supabase service role key (server-side only)     |
+| `NEXT_PUBLIC_TURNSTILE_SITE_KEY`   | Cloudflare Turnstile site key                    |
+| `TURNSTILE_SECRET_KEY`             | Cloudflare Turnstile secret key                  |
 
-> âš ï¸ **Never commit `.env.local` to version control.** It is already listed in `.gitignore`.
+> ⚠️ **Never commit `.env.local` to version control.** It is already listed in `.gitignore`.
 
 ## 6. Start the Development Server
 
@@ -196,15 +196,15 @@ After pushing your changes:
 
 ---
 
-# â†ªï¸ Issue Assignment Process
+# ↪️ Issue Assignment Process
 
 To ensure fair and efficient issue management, please follow these steps:
 
-1. **Browse open issues** â€” Check the [Issues](https://github.com/PankajSingh34/AlgoBuddy/issues) tab for tasks labelled `good first issue` or `help wanted`.
-2. **Comment to request assignment** â€” Leave a comment on the issue you'd like to work on (e.g., *"I'd like to work on this"*). Do not open a PR without being assigned first.
-3. **Wait for assignment** â€” A maintainer will assign the issue to you. Work will only be reviewed from the assigned contributor.
-4. **Submit within the deadline** â€” If a deadline is mentioned on the issue, please try to submit your PR within that timeframe. If you need more time, let us know in the issue thread.
-5. **Avoid duplicate work** â€” Before starting, check that no one else is already assigned to the same issue.
+1. **Browse open issues** — Check the [Issues](https://github.com/PankajSingh34/AlgoBuddy/issues) tab for tasks labelled `good first issue` or `help wanted`.
+2. **Comment to request assignment** — Leave a comment on the issue you'd like to work on (e.g., *"I'd like to work on this"*). Do not open a PR without being assigned first.
+3. **Wait for assignment** — A maintainer will assign the issue to you. Work will only be reviewed from the assigned contributor.
+4. **Submit within the deadline** — If a deadline is mentioned on the issue, please try to submit your PR within that timeframe. If you need more time, let us know in the issue thread.
+5. **Avoid duplicate work** — Before starting, check that no one else is already assigned to the same issue.
 
 > If you find a bug or want to suggest a feature that isn't already an issue, please open one first before working on it.
 
@@ -242,7 +242,7 @@ If you need help while contributing:
 
 - **Open an issue** on GitHub
 - **Start a discussion** in the [Discussions](https://github.com/PankajSingh34/AlgoBuddy/discussions) tab
-- **Ask in Discord** â€” [discord.gg/Gv2N4U3KAc](https://discord.gg/Gv2N4U3KAc)
+- **Ask in Discord** — [discord.gg/Gv2N4U3KAc](https://discord.gg/Gv2N4U3KAc)
 
 We're happy to help new contributors!
 
@@ -253,4 +253,3 @@ We're happy to help new contributors!
 Thank you for contributing to AlgoBuddy ðŸ’™
 
 Your contributions help make learning Data Structures & Algorithms more interactive and accessible for everyone.
-
