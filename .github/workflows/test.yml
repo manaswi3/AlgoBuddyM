@@ -31,6 +31,9 @@ jobs:
 
     validate-backend-pom:
         runs-on: ubuntu-latest
+        defaults:
+            run:
+                working-directory: backend
         steps:
             - uses: actions/checkout@v4
 
@@ -42,4 +45,4 @@ jobs:
                 cache: maven
 
             - name: Validate Maven POM
-              run: mvn validate -f backend/pom.xml
+              run: ./mvnw validate --batch-mode
